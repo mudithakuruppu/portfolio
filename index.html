@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/3f16a2b812.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>My Portfolio Website</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+                <h1>Hi, I'm <span>Muditha </span><br>Kuruppu From Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------------about me -------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore sed deserunt qui eligendi,
+                        aliquam culpa distinctio. Distinctio dolores, ex reiciendis laborum doloribus temporibus,
+                        aliquid voluptatum fuga reprehenderit voluptas, assumenda perspiciatis.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI?UX</span><br>Web/App interfaces</li>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------------services------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam temporibus natus ducimus enim? Dolorem itaque illo excepturi, deserunt reprehenderit ipsum repellat laudantium? Unde accusantium provident, pariatur labore odio incidunt omnis!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam temporibus natus ducimus enim? Dolorem itaque illo excepturi, deserunt reprehenderit ipsum repellat laudantium? Unde accusantium provident, pariatur labore odio incidunt omnis!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Mobile App Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam temporibus natus ducimus enim? Dolorem itaque illo excepturi, deserunt reprehenderit ipsum repellat laudantium? Unde accusantium provident, pariatur labore odio incidunt omnis!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------portfolio-------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/1.jpg" alt="">
+                <div class="layer">
+                    <h3>AI Chat Bot</h3>
+                    <p>This is a Ai Chat Bot. Working with gemini ai. We can get more information and work easy.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/2.jpg" alt="">
+                <div class="layer">
+                    <h3>Fashion Shop POS</h3>
+                    <p>This is Store data entering and storing system. we can use for manage fashion shop orders.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/3.jpg" alt="">
+                <div class="layer">
+                    <h3>Moras Lanka Tours</h3>
+                    <p>Moras Lanka Tours is a tourism website. It is made by wordpress. We are developing travel websites and any other using wordpress.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
